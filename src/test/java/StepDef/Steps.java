@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class Steps {
     public static void main(String[] args) {
-        System.setProperty("webdriver.chrome.driver", "/Users/tahakara/Desktop/Selenium/Chrome/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "/Users/tahakara/LoginSupplyBrain/chromedriver");
 
         WebDriver driver = new ChromeDriver();
 

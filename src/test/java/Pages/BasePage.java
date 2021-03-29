@@ -9,7 +9,7 @@ import org.openqa.selenium.support.PageFactory;
             //this method requires to provide webdriver object for @FindBy
             //and page class
             //this means this page class
-            PageFactory.initElements(Driver.get("https://api-demo.supplybrain.io/login"), this);  // findby anotationlar icin pagefactory i kullaniyoruz
+            PageFactory.initElements(Driver.get(), this);  // findby anotationlar icin pagefactory i kullaniyoruz
         }
 
     }

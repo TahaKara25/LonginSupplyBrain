@@ -13,6 +13,7 @@ public class SupplyBrainTest {
 
     @Given("User on Login Page")
     public void user_on_Login_Page() {
+//        Driver.get().get(ConfigurationReader.getProperty("url"));
         SupplyPage.url();
 
     }

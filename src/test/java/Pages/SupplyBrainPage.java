@@ -22,9 +22,6 @@ import org.openqa.selenium.support.PageFactory;
 
         public void url(){
 
-//            ChromeDriver driver = null;
-//            driver.get("https://api-demo.supplybrain.io/login");
-
         }
 
         public void enterEmailAdnPassword() {
